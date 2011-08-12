@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99C7532E13F5B7D2008293A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C7532D13F5B7D2008293A7 /* Cocoa.framework */; };
+		99C7533813F5B7D2008293A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C7533613F5B7D2008293A7 /* InfoPlist.strings */; };
+		99C7533A13F5B7D2008293A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C7533913F5B7D2008293A7 /* main.m */; };
+		99C7533E13F5B7D2008293A7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 99C7533C13F5B7D2008293A7 /* Credits.rtf */; };
+		99C7534113F5B7D2008293A7 /* SporkerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C7534013F5B7D2008293A7 /* SporkerAppDelegate.m */; };
+		99C7534413F5B7D2008293A7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C7534213F5B7D2008293A7 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99C7532913F5B7D2008293A7 /* Sporker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sporker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C7532D13F5B7D2008293A7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		99C7533013F5B7D2008293A7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		99C7533113F5B7D2008293A7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		99C7533213F5B7D2008293A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99C7533513F5B7D2008293A7 /* Sporker-Info.plist */ = {isa = PBXFileReference; path = "Sporker-Info.plist"; sourceTree = "<group>"; };
+		99C7533713F5B7D2008293A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99C7533913F5B7D2008293A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99C7533B13F5B7D2008293A7 /* Sporker-Prefix.pch */ = {isa = PBXFileReference; path = "Sporker-Prefix.pch"; sourceTree = "<group>"; };
+		99C7533D13F5B7D2008293A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		99C7533F13F5B7D2008293A7 /* SporkerAppDelegate.h */ = {isa = PBXFileReference; path = SporkerAppDelegate.h; sourceTree = "<group>"; };
+		99C7534013F5B7D2008293A7 /* SporkerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SporkerAppDelegate.m; sourceTree = "<group>"; };
+		99C7534313F5B7D2008293A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99C7532613F5B7D2008293A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C7532E13F5B7D2008293A7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99C7531E13F5B7D2008293A7 = {
+			isa = PBXGroup;
+			children = (
+				99C7533313F5B7D2008293A7 /* Sporker */,
+				99C7532C13F5B7D2008293A7 /* Frameworks */,
+				99C7532A13F5B7D2008293A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99C7532A13F5B7D2008293A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99C7532913F5B7D2008293A7 /* Sporker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99C7532C13F5B7D2008293A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99C7532D13F5B7D2008293A7 /* Cocoa.framework */,
+				99C7532F13F5B7D2008293A7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99C7532F13F5B7D2008293A7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99C7533013F5B7D2008293A7 /* AppKit.framework */,
+				99C7533113F5B7D2008293A7 /* CoreData.framework */,
+				99C7533213F5B7D2008293A7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		99C7533313F5B7D2008293A7 /* Sporker */ = {
+			isa = PBXGroup;
+			children = (
+				99C7533F13F5B7D2008293A7 /* SporkerAppDelegate.h */,
+				99C7534013F5B7D2008293A7 /* SporkerAppDelegate.m */,
+				99C7534213F5B7D2008293A7 /* MainMenu.xib */,
+				99C7533413F5B7D2008293A7 /* Supporting Files */,
+			);
+			path = Sporker;
+			sourceTree = "<group>";
+		};
+		99C7533413F5B7D2008293A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C7533513F5B7D2008293A7 /* Sporker-Info.plist */,
+				99C7533613F5B7D2008293A7 /* InfoPlist.strings */,
+				99C7533913F5B7D2008293A7 /* main.m */,
+				99C7533B13F5B7D2008293A7 /* Sporker-Prefix.pch */,
+				99C7533C13F5B7D2008293A7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99C7532813F5B7D2008293A7 /* Sporker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C7534713F5B7D2008293A7 /* Build configuration list for PBXNativeTarget "Sporker" */;
+			buildPhases = (
+				99C7532513F5B7D2008293A7 /* Sources */,
+				99C7532613F5B7D2008293A7 /* Frameworks */,
+				99C7532713F5B7D2008293A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sporker;
+			productName = Sporker;
+			productReference = 99C7532913F5B7D2008293A7 /* Sporker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99C7532013F5B7D2008293A7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 99C7532313F5B7D2008293A7 /* Build configuration list for PBXProject "Sporker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99C7531E13F5B7D2008293A7;
+			productRefGroup = 99C7532A13F5B7D2008293A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99C7532813F5B7D2008293A7 /* Sporker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99C7532713F5B7D2008293A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C7533813F5B7D2008293A7 /* InfoPlist.strings in Resources */,
+				99C7533E13F5B7D2008293A7 /* Credits.rtf in Resources */,
+				99C7534413F5B7D2008293A7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99C7532513F5B7D2008293A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C7533A13F5B7D2008293A7 /* main.m in Sources */,
+				99C7534113F5B7D2008293A7 /* SporkerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99C7533613F5B7D2008293A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C7533713F5B7D2008293A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99C7533C13F5B7D2008293A7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C7533D13F5B7D2008293A7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		99C7534213F5B7D2008293A7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C7534313F5B7D2008293A7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99C7534513F5B7D2008293A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		99C7534613F5B7D2008293A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		99C7534813F5B7D2008293A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sporker/Sporker-Prefix.pch";
+				INFOPLIST_FILE = "Sporker/Sporker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99C7534913F5B7D2008293A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sporker/Sporker-Prefix.pch";
+				INFOPLIST_FILE = "Sporker/Sporker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99C7532313F5B7D2008293A7 /* Build configuration list for PBXProject "Sporker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C7534513F5B7D2008293A7 /* Debug */,
+				99C7534613F5B7D2008293A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C7534713F5B7D2008293A7 /* Build configuration list for PBXNativeTarget "Sporker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C7534813F5B7D2008293A7 /* Debug */,
+				99C7534913F5B7D2008293A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99C7532013F5B7D2008293A7 /* Project object */;
+}
