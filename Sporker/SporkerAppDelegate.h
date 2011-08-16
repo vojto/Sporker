@@ -7,11 +7,26 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Sporker.h"
 
 @interface SporkerAppDelegate : NSObject <NSApplicationDelegate> {
-    NSWindow *window;
+    NSStatusItem *statusItem;
+    IBOutlet NSMenu *menu;
+    IBOutlet NSMenuItem *projectNameMenuItem;
+    NSString *projectName;
+    IBOutlet Sporker *sporker;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (retain) NSString *projectName;
+
+- (IBAction)chooseProjectAction:(id)sender;
+- (IBAction)startAction:(id)sender;
+- (IBAction)stopAction:(id)sender;
+- (IBAction)restartAction:(id)sender;
+- (IBAction)quitAction:(id)sender;
+
+- (void)_updateMenuItem;
+
 
 @end

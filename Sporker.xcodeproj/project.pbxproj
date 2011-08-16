@@ -7,28 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		996F5B2313F9EF93003ED243 /* SporkerTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 996F5B2213F9EF93003ED243 /* SporkerTemplate.png */; };
+		996F5B2513F9F06A003ED243 /* SporkerIdle.png in Resources */ = {isa = PBXBuildFile; fileRef = 996F5B2413F9F06A003ED243 /* SporkerIdle.png */; };
+		996F5B2713F9F0B6003ED243 /* SporkerSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 996F5B2613F9F0B6003ED243 /* SporkerSelected.png */; };
+		996F5B2B13F9F17F003ED243 /* SporkerStopped.png in Resources */ = {isa = PBXBuildFile; fileRef = 996F5B2813F9F17F003ED243 /* SporkerStopped.png */; };
+		996F5B3313F9F358003ED243 /* SporkerRunning.png in Resources */ = {isa = PBXBuildFile; fileRef = 996F5B3213F9F358003ED243 /* SporkerRunning.png */; };
+		996F5B3513F9F40F003ED243 /* SporkerStarting.png in Resources */ = {isa = PBXBuildFile; fileRef = 996F5B3413F9F40F003ED243 /* SporkerStarting.png */; };
+		996F5B3C13F9F780003ED243 /* spork-start.sh in Resources */ = {isa = PBXBuildFile; fileRef = 996F5B3B13F9F780003ED243 /* spork-start.sh */; };
 		99C7532E13F5B7D2008293A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C7532D13F5B7D2008293A7 /* Cocoa.framework */; };
 		99C7533813F5B7D2008293A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C7533613F5B7D2008293A7 /* InfoPlist.strings */; };
 		99C7533A13F5B7D2008293A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C7533913F5B7D2008293A7 /* main.m */; };
 		99C7533E13F5B7D2008293A7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 99C7533C13F5B7D2008293A7 /* Credits.rtf */; };
 		99C7534113F5B7D2008293A7 /* SporkerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C7534013F5B7D2008293A7 /* SporkerAppDelegate.m */; };
 		99C7534413F5B7D2008293A7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C7534213F5B7D2008293A7 /* MainMenu.xib */; };
+		99C7534C13F5B830008293A7 /* Sporker.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C7534B13F5B830008293A7 /* Sporker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		996F5B2213F9EF93003ED243 /* SporkerTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SporkerTemplate.png; sourceTree = "<group>"; };
+		996F5B2413F9F06A003ED243 /* SporkerIdle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SporkerIdle.png; sourceTree = "<group>"; };
+		996F5B2613F9F0B6003ED243 /* SporkerSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SporkerSelected.png; sourceTree = "<group>"; };
+		996F5B2813F9F17F003ED243 /* SporkerStopped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SporkerStopped.png; sourceTree = "<group>"; };
+		996F5B3213F9F358003ED243 /* SporkerRunning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SporkerRunning.png; sourceTree = "<group>"; };
+		996F5B3413F9F40F003ED243 /* SporkerStarting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SporkerStarting.png; sourceTree = "<group>"; };
+		996F5B3B13F9F780003ED243 /* spork-start.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "spork-start.sh"; sourceTree = "<group>"; };
 		99C7532913F5B7D2008293A7 /* Sporker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sporker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C7532D13F5B7D2008293A7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		99C7533013F5B7D2008293A7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		99C7533113F5B7D2008293A7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		99C7533213F5B7D2008293A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		99C7533513F5B7D2008293A7 /* Sporker-Info.plist */ = {isa = PBXFileReference; path = "Sporker-Info.plist"; sourceTree = "<group>"; };
+		99C7533513F5B7D2008293A7 /* Sporker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sporker-Info.plist"; sourceTree = "<group>"; };
 		99C7533713F5B7D2008293A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99C7533913F5B7D2008293A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		99C7533B13F5B7D2008293A7 /* Sporker-Prefix.pch */ = {isa = PBXFileReference; path = "Sporker-Prefix.pch"; sourceTree = "<group>"; };
+		99C7533B13F5B7D2008293A7 /* Sporker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sporker-Prefix.pch"; sourceTree = "<group>"; };
 		99C7533D13F5B7D2008293A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		99C7533F13F5B7D2008293A7 /* SporkerAppDelegate.h */ = {isa = PBXFileReference; path = SporkerAppDelegate.h; sourceTree = "<group>"; };
+		99C7533F13F5B7D2008293A7 /* SporkerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SporkerAppDelegate.h; sourceTree = "<group>"; };
 		99C7534013F5B7D2008293A7 /* SporkerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SporkerAppDelegate.m; sourceTree = "<group>"; };
 		99C7534313F5B7D2008293A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		99C7534A13F5B830008293A7 /* Sporker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sporker.h; sourceTree = "<group>"; };
+		99C7534B13F5B830008293A7 /* Sporker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sporker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +60,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		996F5B1E13F9EF46003ED243 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				996F5B3A13F9F776003ED243 /* Scripts */,
+				996F5B3913F9F6D0003ED243 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		996F5B3913F9F6D0003ED243 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				996F5B2213F9EF93003ED243 /* SporkerTemplate.png */,
+				996F5B2413F9F06A003ED243 /* SporkerIdle.png */,
+				996F5B2613F9F0B6003ED243 /* SporkerSelected.png */,
+				996F5B2813F9F17F003ED243 /* SporkerStopped.png */,
+				996F5B3213F9F358003ED243 /* SporkerRunning.png */,
+				996F5B3413F9F40F003ED243 /* SporkerStarting.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		996F5B3A13F9F776003ED243 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				996F5B3B13F9F780003ED243 /* spork-start.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
 		99C7531E13F5B7D2008293A7 = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +129,11 @@
 		99C7533313F5B7D2008293A7 /* Sporker */ = {
 			isa = PBXGroup;
 			children = (
+				996F5B1E13F9EF46003ED243 /* Resources */,
 				99C7533F13F5B7D2008293A7 /* SporkerAppDelegate.h */,
 				99C7534013F5B7D2008293A7 /* SporkerAppDelegate.m */,
+				99C7534A13F5B830008293A7 /* Sporker.h */,
+				99C7534B13F5B830008293A7 /* Sporker.m */,
 				99C7534213F5B7D2008293A7 /* MainMenu.xib */,
 				99C7533413F5B7D2008293A7 /* Supporting Files */,
 			);
@@ -152,6 +202,13 @@
 				99C7533813F5B7D2008293A7 /* InfoPlist.strings in Resources */,
 				99C7533E13F5B7D2008293A7 /* Credits.rtf in Resources */,
 				99C7534413F5B7D2008293A7 /* MainMenu.xib in Resources */,
+				996F5B2313F9EF93003ED243 /* SporkerTemplate.png in Resources */,
+				996F5B2513F9F06A003ED243 /* SporkerIdle.png in Resources */,
+				996F5B2713F9F0B6003ED243 /* SporkerSelected.png in Resources */,
+				996F5B2B13F9F17F003ED243 /* SporkerStopped.png in Resources */,
+				996F5B3313F9F358003ED243 /* SporkerRunning.png in Resources */,
+				996F5B3513F9F40F003ED243 /* SporkerStarting.png in Resources */,
+				996F5B3C13F9F780003ED243 /* spork-start.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +221,7 @@
 			files = (
 				99C7533A13F5B7D2008293A7 /* main.m in Sources */,
 				99C7534113F5B7D2008293A7 /* SporkerAppDelegate.m in Sources */,
+				99C7534C13F5B830008293A7 /* Sporker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +341,7 @@
 				99C7534913F5B7D2008293A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
