@@ -14,6 +14,7 @@
 		996F5B3313F9F358003ED243 /* SporkerRunning.png in Resources */ = {isa = PBXBuildFile; fileRef = 996F5B3213F9F358003ED243 /* SporkerRunning.png */; };
 		996F5B3513F9F40F003ED243 /* SporkerStarting.png in Resources */ = {isa = PBXBuildFile; fileRef = 996F5B3413F9F40F003ED243 /* SporkerStarting.png */; };
 		996F5B3C13F9F780003ED243 /* spork-start.sh in Resources */ = {isa = PBXBuildFile; fileRef = 996F5B3B13F9F780003ED243 /* spork-start.sh */; };
+		996F5B3E13F9FA29003ED243 /* Sporker.icns in Resources */ = {isa = PBXBuildFile; fileRef = 996F5B3D13F9FA29003ED243 /* Sporker.icns */; };
 		99C7532E13F5B7D2008293A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C7532D13F5B7D2008293A7 /* Cocoa.framework */; };
 		99C7533813F5B7D2008293A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C7533613F5B7D2008293A7 /* InfoPlist.strings */; };
 		99C7533A13F5B7D2008293A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C7533913F5B7D2008293A7 /* main.m */; };
@@ -31,6 +32,7 @@
 		996F5B3213F9F358003ED243 /* SporkerRunning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SporkerRunning.png; sourceTree = "<group>"; };
 		996F5B3413F9F40F003ED243 /* SporkerStarting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SporkerStarting.png; sourceTree = "<group>"; };
 		996F5B3B13F9F780003ED243 /* spork-start.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "spork-start.sh"; sourceTree = "<group>"; };
+		996F5B3D13F9FA29003ED243 /* Sporker.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Sporker.icns; sourceTree = "<group>"; };
 		99C7532913F5B7D2008293A7 /* Sporker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sporker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C7532D13F5B7D2008293A7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		99C7533013F5B7D2008293A7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -78,6 +80,7 @@
 				996F5B2813F9F17F003ED243 /* SporkerStopped.png */,
 				996F5B3213F9F358003ED243 /* SporkerRunning.png */,
 				996F5B3413F9F40F003ED243 /* SporkerStarting.png */,
+				996F5B3D13F9FA29003ED243 /* Sporker.icns */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				996F5B3313F9F358003ED243 /* SporkerRunning.png in Resources */,
 				996F5B3513F9F40F003ED243 /* SporkerStarting.png in Resources */,
 				996F5B3C13F9F780003ED243 /* spork-start.sh in Resources */,
+				996F5B3E13F9FA29003ED243 /* Sporker.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
