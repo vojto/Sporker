@@ -8,8 +8,6 @@
 
 #import "Sporker.h"
 
-#define RKPostNotificationWithName(name) NSNotification *notif = [NSNotification notificationWithName:name object:nil]; [[NSNotificationCenter defaultCenter] postNotification:notif]
-
 @implementation Sporker
 
 @synthesize task, state;
@@ -94,7 +92,6 @@
 - (void)_changeState:(NSString *)aState {
     if ([aState isEqualToString:self.state]) return;
     self.state = aState;
-    // RKPostNotificationWithName(@"SporkerDidChangeState");
 }
 
 - (NSString *)_startScriptPath {
